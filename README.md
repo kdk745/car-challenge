@@ -50,7 +50,7 @@ npm run migrate
 # seed the tables with car data
 yarn seed
 # or
-npm runb seed
+npm run seed
 
 yarn start
 # or
