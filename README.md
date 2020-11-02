@@ -43,7 +43,7 @@ I did include all CRUD actions in this application if you would like to test the
 Prerequisites: must have a running instance of postgreSQL with a database named 'cars' owned by the user postgres with password 'password'. 
 This is basically a default postgres setup when installed, all that must be done is creating a 'cars' database.
 
-Follow commands below. Make sure the docker container is not running otherwise the address will be in use.
+Follow commands below. Make sure the docker container is not running otherwise the address will be in use. Also, rename .env.example to .env
 
 ```
 # create the tables in the ps database
@@ -70,4 +70,4 @@ npm run test
 
 ```
 
-Navigate the the urls listed above. Page should work the same way.
+Navigate to the urls listed above. Page should work the same way.
