@@ -8,6 +8,8 @@ Testing is done through Mocha.
 
 Linting, babel support included.
 
+Should run this project on a Mac. Windows may present some issues.
+
 ## Installation and running with Docker
 
 After cloning and entering directory in your terminal, follow the commands below. 
