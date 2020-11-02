@@ -37,6 +37,8 @@ You should see a JSON representation of all the seeded cars objects in the datab
 
 To view a specific car object, simply navigate to http://localhost:8848/api/cars/{id} - id of the car you would like to see
 
+I did include all CRUD actions in this application if you would like to test them. There are Mocha tests written for these actions as well.
+
 ## Run locally without docker
 Prerequisites: must have a running instance of postgreSQL with a database named 'cars' owned by the user postgres with password 'password'. 
 This is basically a default postgres setup when installed, all that must be done is creating a 'cars' database.
